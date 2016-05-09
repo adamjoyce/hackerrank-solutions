@@ -1,0 +1,6 @@
+- To solve this question I begin by introducing an array frequency.
+- For each value in List A I decrement the corresponding index value in frequency.
+- I then do the same with List B, but instead of decrementing the value I increment it.
+- This results in any value missing in List A but present in List B having a positive value in frequency.
+- Finally I print all the index values in frequency which are greater than zero.
+- This results in the missing elements being printed in ascending order.

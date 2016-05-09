@@ -1,0 +1,7 @@
+- The forest and the four possible moves in relation to a cell are stored in arrays.
+- My depth first search function takes the current and previous x and y coordinates.
+- It cycles through the four possible moves discerning their eligibility i.e. if each cell is within the forest bounds, if the new cell is not the previous one, and if it is not blocked.
+- If the above is true for a cell I recursively call depth first search on it to check if that cell has a valid path moving forward.
+- Once all four cells have been evaluated if their are multiple paths moving forward I increment the number of moves taken.
+- This depth first search function will search through the grid eventually finding the the portkey having stored the number of moves taken to reach it.
+- It is then a simple case of evaluating is this result matches Ron's guess and printing the appropriate text.

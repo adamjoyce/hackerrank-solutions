@@ -1,0 +1,9 @@
+- For this question I setup an additional array to the original input and sort this array for comparison.
+- If the original array matches the sorted array I simply output 'yes'.
+- For any values in the two arrays whose indices do not match I store in a vector array.
+- If non-matching values exist there must be at least two of them.
+- This means that if their are exactly two values that are incorrectly placed it is trivial to test to see if when swapped the original values become sorted.
+- If this is the case 'yes swap x y' is printed where x and y are the indices that need to be swapped to form the sorted array.
+- Lastly I reverse the sub-section between the mismatching elements in the original array and iterate over it to check if all the values now match those in the sorted array.
+- If they match I print 'yes reverse x y' where x and y are the start and end indices of the subsection that needs reversing.
+- If they do not match 'no' is printed.

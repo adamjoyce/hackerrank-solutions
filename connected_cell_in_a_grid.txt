@@ -1,0 +1,5 @@
+- I begin by assigning two arrays dX and dY which signify the x and y positions of the eight cells surrounding the cell being tested.
+- My depth first search function takes a single cell's x and y coordinate, marks that cell as visited, and proceeds to check if its surrounding cells contain the value 1 (providing they are within grid range and have not been previously visited).#
+- The depth first function is recursively called on any cell that contains the value 1 and the overall count is incremented.
+- By using this function I can search through each cell in the grid calculating the number of connected cells from the given cell.
+- The largest connected count is stored and printed.

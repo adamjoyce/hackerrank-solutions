@@ -1,0 +1,4 @@
+- I begin by storing the sum of all of the on all the vertices in the entire tree.
+- By cycling through each node of the tree and calling my depth first search algorithm I am able to calculate the weights of all the sub-trees.
+- This means that I can then remove edges and easily calculate the weight difference between the two.
+- It is then a simiple case of sorting the results and printing the lowest difference value.

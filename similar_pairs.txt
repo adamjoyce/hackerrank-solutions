@@ -1,0 +1,9 @@
+- With this problem I needed to find a suitable data structure to keep track of and access a node's parent nodes.
+- In addition there must be an easy and time efficient way to insert and remove nodes as I traversed the tree.
+- A Binary Index Tree seemed suitable for the requirements the of the problem.
+- After determining the root node, i.e. the node with no parent, I traverse the tree using my depth first search algorithm.
+- To meet the conditions for a similar pair, I need to find each node's parents where A - B <= T, when A is a parent node of B and T is the given test value.
+- I do this by using the binary index tree to keep track of the following node's parents.
+- Then for the current node I can query the number of it's own parents that fall in the range of (currentNodeValue - testValue) to (currentNodeValue + testValue), and add that value to the number of similar pairs.
+- My update function is used in my depth first search to both add and remove nodes as I traverse and return back along the tree structure.
+- Once the depth first search is complete the number of total similar pairs will have been found - this value is printed.
