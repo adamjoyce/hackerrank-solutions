@@ -57,3 +57,36 @@ int main() {
     std::cout << similarPairs;   
     return 0;
 }
+
+
+
+//Similar Pairs
+//You are given a tree where each node is labeled from 11 to nn.How many similar pairs(S) are there in this tree ?
+//
+//A pair(A, B) is a similar pair if the following are true :
+//
+//    node AA is the ancestor of node BB
+//    abs(A?B)?Tabs(A?B)?T
+//    Input format :
+//The first line of the input contains two integers, nn and TT.This is followed by n?1n?1 lines, each containing two integers ssii and eeii where node ssii is a parent to node eeii.
+//
+//Output format :
+//Output a single integer which denotes the number of similar pairs in the tree.
+//
+//Constraints :
+//    1?n?1000001?n?100000
+//    0?T?n0?T?n
+//    1?s1?sii, eeii ?n?n
+//
+//    Sample Input :
+//
+//5 2
+//3 2
+//3 1
+//1 4
+//1 5
+//Sample Output :
+//
+//4
+//Explanation :
+//    The similar pairs are : (3, 2) (3, 1) (3, 4) (3, 5).
