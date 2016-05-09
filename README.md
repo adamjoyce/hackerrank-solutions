@@ -5,19 +5,19 @@ Below is a brief description of the approah I took to solving each of the proble
 ##Almost Sorted
 - For this question I setup an additional array to the original input and sort this array for comparison.
 - If the original array matches the sorted array I simply output 'yes'.
-- For any values in the two arrays whose indices do not match I store in a vector array.
+- For any values in the two arrays whose indices do not match I store in a seperate vector array.
 - If non-matching values exist there must be at least two of them.
-- This means that if their are exactly two values that are incorrectly placed it is trivial to test to see if when swapped the original values become sorted.
+- This means that if there are exactly two values that are incorrectly placed it is trivial to test to see if when swapped the original values become sorted.
 - If this is the case 'yes swap x y' is printed where x and y are the indices that need to be swapped to form the sorted array.
 - Lastly I reverse the sub-section between the mismatching elements in the original array and iterate over it to check if all the values now match those in the sorted array.
 - If they match I print 'yes reverse x y' where x and y are the start and end indices of the subsection that needs reversing.
-- If they do not match 'no' is printed.
+- If none of the previous tests are true 'no' is printed.
 
 
 ##Connected Cells in a Grid
 - I begin by assigning two arrays dX and dY which signify the x and y positions of the eight cells surrounding the cell being tested.
-- My depth first search function takes a single cell's x and y coordinate, marks that cell as visited, and proceeds to check if its surrounding cells contain the value 1 (providing they are within grid range and have not been previously visited).#
-- The depth first function is recursively called on any cell that contains the value 1 and the overall count is incremented.
+- My depth first search function takes a single cell's x and y coordinate, marks that cell as visited, and proceeds to check if its surrounding cells contain the value 1 (providing they are within grid range and have not been previously visited).
+- The depth first search function is recursively called on any cell that contains the value 1 and the overall count is incremented.
 - By using this function I can search through each cell in the grid calculating the number of connected cells from the given cell.
 - The largest connected count is stored and printed.
 
@@ -27,16 +27,16 @@ Below is a brief description of the approah I took to solving each of the proble
 - My depth first search function takes the current and previous x and y coordinates.
 - It cycles through the four possible moves discerning their eligibility i.e. if each cell is within the forest bounds, if the new cell is not the previous one, and if it is not blocked.
 - If the above is true for a cell I recursively call depth first search on it to check if that cell has a valid path moving forward.
-- Once all four cells have been evaluated if their are multiple paths moving forward I increment the number of moves taken.
+- Once all four cells have been evaluated if there are multiple paths moving forward I increment the number of moves taken.
 - This depth first search function will search through the grid eventually finding the the portkey having stored the number of moves taken to reach it.
-- It is then a simple case of evaluating is this result matches Ron's guess and printing the appropriate text.
+- It is then a simple case of evaluating if this result matches Ron's guess and printing the appropriate text.
 
 
 ##Cut the Tree
-- I begin by storing the sum of all of the on all the vertices in the entire tree.
+- I begin by storing the sum of all of the weights on all the vertices in the entire tree.
 - By cycling through each node of the tree and calling my depth first search algorithm I am able to calculate the weights of all the sub-trees.
 - This means that I can then remove edges and easily calculate the weight difference between the two.
-- It is then a simiple case of sorting the results and printing the lowest difference value.
+- It is then a simple case of sorting the results and printing the lowest difference value.
 
 
 ##Missing Numbers
