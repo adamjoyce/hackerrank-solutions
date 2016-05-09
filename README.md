@@ -65,3 +65,9 @@ Below is a brief description of the approah I took to solving each of the proble
 - Then for the current node I can query the number of it's own parents that fall in the range of (currentNodeValue - testValue) to (currentNodeValue + testValue), and add that value to the number of similar pairs.
 - My update function is used in my depth first search to both add and remove nodes as I traverse and return back along the tree structure.
 - Once the depth first search is complete the number of total similar pairs will have been found - this value is printed.
+
+
+##Submissions
+[submission1](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions1.PNG)
+
+[submission2](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions2.PNG)
