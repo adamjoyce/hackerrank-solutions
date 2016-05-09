@@ -71,3 +71,7 @@ Below is a brief description of the approah I took to solving each of the proble
 ![submission1](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions1.PNG)
 
 ![submission2](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions2.PNG)
+
+
+##Youtube Video
+https://youtu.be/cPVosMC-PeM
