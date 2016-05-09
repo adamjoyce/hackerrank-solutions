@@ -68,6 +68,6 @@ Below is a brief description of the approah I took to solving each of the proble
 
 
 ##Submissions
-[submission1](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions1.PNG)
+![submission1](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions1.PNG)
 
-[submission2](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions2.PNG)
+![submission2](https://raw.githubusercontent.com/adamjoyce/hackerrank-solutions/master/images/submissions2.PNG)
