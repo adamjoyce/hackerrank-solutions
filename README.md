@@ -77,6 +77,6 @@ Below is a brief description of the approah I took to solving each of the proble
 https://youtu.be/cPVosMC-PeM
 
 ##References
-https://en.wikipedia.org/wiki/Fenwick_tree
-https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/
-https://en.wikipedia.org/wiki/Depth-first_search
+https://en.wikipedia.org/wiki/Fenwick_tree<br/>
+https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/<br/>
+https://en.wikipedia.org/wiki/Depth-first_search<br/>
